@@ -1,4 +1,4 @@
-package pl.mn.uddi;
+package pl.mn.uddi.file;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author minidmnv
  */
 @RestController
-@RequestMapping
-public class BusinessServiceController {
-
+@RequestMapping("/files")
+public class FilesController {
 }
